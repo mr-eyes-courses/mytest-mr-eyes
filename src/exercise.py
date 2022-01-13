@@ -6,4 +6,4 @@ class Excercise:
         self.message = "asasas"
         
     def hello(self):
-        print(self.message)
+        return(self.message)
