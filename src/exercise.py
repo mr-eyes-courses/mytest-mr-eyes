@@ -3,7 +3,7 @@ from mimetypes import init
 
 class Excercise:
     def __init__(self) -> None:
-        self.message = ""
+        self.message = "asasas"
         
     def hello(self):
         print(self.message)
