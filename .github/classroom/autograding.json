@@ -13,12 +13,12 @@
     {
       "name": "verify_tests",
       "setup": "",
-      "run": "md5sum tests/test_exercise.py",
+      "run": "md5sum tests/test_exercise.py | awk '{ print $1 }'",
       "input": "",
-      "output": "b5dbd3cedb1e2d0d07c0693d406afc6f tests/test_exercise.py",
+      "output": "b5dbd3cedb1e2d0d07c0693d406afc6f",
       "comparison": "exact",
       "timeout": 10,
-      "points": null
+      "points": 100
     }
   ]
 }
